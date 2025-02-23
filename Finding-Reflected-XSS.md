@@ -23,3 +23,13 @@ In this example, we tested for **Reflected XSS** on a university website. Howeve
 A(<testabcd)
 
 ```
+
+- If reflected, replace A with an XSS payload.
+3️⃣ Payload Injection
+- Modify the input to test XSS:
+
+```
+
+- <script>alert('XSS')</script>
+
+```
