@@ -27,7 +27,9 @@ A(<testabcd)
 ![Reflected XSS Example](https://raw.githubusercontent.com/0xnoorhudaa/BugBounty-Writeups/refs/heads/main/images/1724047866684.jpeg)
 
 - If reflected, replace A with an XSS payload.
+  
 3️⃣ Payload Injection
+
 - Modify the input to test XSS:
 
 ```
