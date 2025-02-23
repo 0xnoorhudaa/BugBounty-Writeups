@@ -20,7 +20,7 @@ In this example, we tested for **Reflected XSS** on a university website. Howeve
 
 ```
 
-A(<testabcd)
+ (A(<testabcd))
 
 ```
 
@@ -34,7 +34,7 @@ A(<testabcd)
 
 ```
 
- <script>alert('XSS')</script>
+ <script>alert('1')</script>
 
 ```
 
