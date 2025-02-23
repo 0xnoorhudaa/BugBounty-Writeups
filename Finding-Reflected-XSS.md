@@ -16,10 +16,9 @@ In this example, we tested for **Reflected XSS** on a university website. Howeve
    ```sh
    assetfinder --subs-only example.com | httpprobe | cookieless
 
-2️⃣ Test for Reflection
+## 🛠 **Steps to Find Reflected XSS**  
+1️⃣ **Find Subdomains**  
+   ```sh
+   assetfinder --subs-only example.com | httpprobe | cookieless
 
-Input this URL-encoded string to check for reflection:
-css
-Salin
-Edit
-A(<testabcd)
+
