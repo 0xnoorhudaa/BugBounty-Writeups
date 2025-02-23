@@ -8,11 +8,17 @@ In this example, we tested for **Reflected XSS** on a university website. Howeve
 ## 🛠 **Steps to Find Reflected XSS**  
 1️⃣ **Find Subdomains**  
 
-
-
 ```
 
  assetfinder --subs-only example.com | httpprobe | cookieless
 
 ```
 
+2️⃣ Test for Reflection
+Input this URL-encoded string to check for reflection:
+
+```
+
+A(<testabcd)
+
+```
