@@ -17,13 +17,7 @@ In this example, we tested for **Reflected XSS** on a university website. Howeve
    assetfinder --subs-only example.com | httpprobe | cookieless
 
 
-## 🛠 **Steps to Find Reflected XSS**  
-1️⃣ **Find Subdomains**  
-   ```sh
-🔵 2. Test for Reflection
-Input this URL-encoded string to check for reflection:
+### Scan ports on a host quickly
 
-html
-Salin
-Edit
-A(<testabcd)
+```
+SCOPE=192.168.0.0/24;RPORT=22,80,443;rustscan -b 500 -a $SCOPE -p $RPORT | grep "Open $SCOPE[0-9]*" | tee -a ports_scanned.txt
