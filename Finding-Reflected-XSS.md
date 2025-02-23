@@ -38,7 +38,9 @@ A(<testabcd)
 
 📷 **Screenshots**
 
-(Add images/screenshots if needed)
+
+![Reflected XSS Example](https://raw.githubusercontent.com/0xnoorhudaa/BugBounty-Writeups/refs/heads/main/images/1724047868078.jpeg)
+
 
 🚀 **Mitigation & Fixes**
 
