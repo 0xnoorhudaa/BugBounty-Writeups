@@ -15,7 +15,8 @@ In this example, we tested for **Reflected XSS** on a university website. Howeve
 ```
 
 2️⃣ Test for Reflection
-Input this URL-encoded string to check for reflection:
+
+- Input this URL-encoded string to check for reflection:
 
 ```
 
